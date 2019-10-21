@@ -20,7 +20,7 @@
 	height:100px;
 }
 #nav_Div {
-	position: fixed;
+	position: absolute;
     top: 10%; 
 	margin-left:6%;
     z-index: 11;
@@ -56,8 +56,8 @@
 .my_navigation ul li a{
 	color:#fff !important;
 	font-size:16px;
-	font-fa:block;mily: 'calibri';
-	display
+	font-family: 'calibri';
+	display:block;
 
 }
 /*==============gallery part============*/
@@ -419,22 +419,6 @@
     width: 100%;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media only screen and (max-width: 450px){
